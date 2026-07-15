@@ -1,0 +1,700 @@
+==================================================
+Website: https://prpedge.com
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://prpedge.com[39m[24m[22m ... please wait, this may take a minute.
+
+[31m[1m  Violation of "empty-heading" with 8 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure headings have discernible text. Correct invalid elements at:
+     - .elementor-element-4eef818 > .elementor-widget-container > a > .eihe-box.eihe-flip-horiz.eihe_ > .eihe-caption > .eihe-title-cover > .eihe-title
+     - .elementor-element-591dc32 > .elementor-widget-container > a > .eihe-box.eihe-flip-horiz.eihe_ > .eihe-caption > .eihe-title-cover > .eihe-title
+     - .elementor-element-bb30e91 > .elementor-widget-container > a > .eihe-box.eihe-flip-horiz.eihe_ > .eihe-caption > .eihe-title-cover > .eihe-title
+     - .elementor-element-9b73ba7 > .elementor-widget-container > a > .eihe-box.eihe-flip-horiz.eihe_ > .eihe-caption > .eihe-title-cover > .eihe-title
+     - .elementor-element-2ff8b29 > .elementor-widget-container > a > .eihe-box.eihe-flip-horiz.eihe_ > .eihe-caption > .eihe-title-cover > .eihe-title
+     - .elementor-element-ac332e3 > .elementor-widget-container > a > .eihe-box.eihe-flip-horiz.eihe_ > .eihe-caption > .eihe-title-cover > .eihe-title
+     - .elementor-element-a4adb26 > .elementor-widget-container > a > .eihe-box.eihe-flip-horiz.eihe_ > .eihe-caption > .eihe-title-cover > .eihe-title
+     - .elementor-element-6f0ed1a > .elementor-widget-container > a > .eihe-box.eihe-flip-horiz.eihe_ > .eihe-caption > .eihe-title-cover > .eihe-title
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/empty-heading[39m[24m
+
+[31m[1m  Violation of "landmark-one-main" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure the document has a main landmark. Correct invalid elements at:
+     - html
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/landmark-one-main[39m[24m
+
+[31m[1m  Violation of "link-name" with 2 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure links have discernible text. Correct invalid elements at:
+     - .elementor-element-709c8cb > .elementor-widget-container > a[href$="www.prpedge.com"]
+     - .elementor-element-066d4f1.elementor-sticky--active.elementor-section--handles-inside > .elementor-widget-container > a
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/link-name[39m[24m
+
+[31m[1m  Violation of "page-has-heading-one" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure that the page, or at least one of its frames contains a level-one heading. Correct invalid elements at:
+     - html
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/page-has-heading-one[39m[24m
+
+[31m[1m  Violation of "region" with 21 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure all page content is contained by landmarks. Correct invalid elements at:
+     - .active-revslide
+     - .elementor-element-de27d4b
+     - .elementor-element-157c7f7
+     - .elementor-element-3cfb6b5
+     - .elementor-element-fb3af4a
+     - .elementor-element-ce367c4
+     - .elementor-element-2eded18
+     - .elementor-element-f31407a > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-14ce9a2 > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-d086fce > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-90b0ffa > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-e08f606 > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-570907e > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-70d0317 > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-7476454 > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-c3c8e3a > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-1e805dd > .elementor-widget-container > .elementor-icon-box-wrapper > .elementor-icon-box-content
+     - .elementor-element-d908d27
+     - .elementor-element-0e479de
+     - .elementor-element-cfac170
+     - .elementor-element-5ee9a70
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/region[39m[24m
+[31m[1m[22m[39m
+[31m[1m33 Accessibility issues detected.[22m[39m
+[1mTesting complete of 1 pages[22m
+[1m[22m
+[3mPlease note that only 20% to 50% of all accessibility issues can automatically be detected. [23m
+[3mManual testing is always required. For more information see:[23m
+[3m[4m[34mhttps://dequeuniversity.com/class/testing[39m[24m[23m
+[3m[23m
+
+
+==================================================
+Website: https://svanim.com
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://svanim.com[39m[24m[22m ... please wait, this may take a minute.
+
+[31m[1m  Violation of "document-title" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure each HTML document contains a non-empty <title> element. Correct invalid elements at:
+     - html
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/document-title[39m[24m
+
+[31m[1m  Violation of "frame-title" with 2 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure <iframe> and <frame> elements have an accessible name. Correct invalid elements at:
+     - frame[name="mainFrame"]
+     - frame[name="RedirFrame"]
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/frame-title[39m[24m
+
+[31m[1m  Violation of "html-has-lang" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure every HTML document has a lang attribute. Correct invalid elements at:
+     - html
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/html-has-lang[39m[24m
+
+[31m[1m  Violation of "landmark-one-main" with 3 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure the document has a main landmark. Correct invalid elements at:
+     - html
+     - frame[name="mainFrame"] html
+     - frame[name="RedirFrame"] html
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/landmark-one-main[39m[24m
+
+[31m[1m  Violation of "region" with 4 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure all page content is contained by landmarks. Correct invalid elements at:
+     - frame[name="RedirFrame"] h1:nth-child(1)
+     - frame[name="RedirFrame"] h1:nth-child(4)
+     - frame[name="RedirFrame"] h1:nth-child(7)
+     - frame[name="RedirFrame"] address
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/region[39m[24m
+[31m[1m[22m[39m
+[31m[1m11 Accessibility issues detected.[22m[39m
+[1mTesting complete of 1 pages[22m
+[1m[22m
+[3mPlease note that only 20% to 50% of all accessibility issues can automatically be detected. [23m
+[3mManual testing is always required. For more information see:[23m
+[3m[4m[34mhttps://dequeuniversity.com/class/testing[39m[24m[23m
+[3m[23m
+
+
+==================================================
+Website: https://svobodha.com
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://svobodha.com[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://rbsa.in
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://rbsa.in[39m[24m[22m ... please wait, this may take a minute.
+
+[31m[1m  Violation of "color-contrast" with 3 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds. Correct invalid elements at:
+     - .wpcf7-text
+     - .has-spinner
+     - .textwidget > p
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/color-contrast[39m[24m
+
+[31m[1m  Violation of "landmark-one-main" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure the document has a main landmark. Correct invalid elements at:
+     - html
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/landmark-one-main[39m[24m
+
+[31m[1m  Violation of "link-name" with 5 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure links have discernible text. Correct invalid elements at:
+     - .q_social_icon_holder.normal_social:nth-child(5) > a[itemprop="url"][target="_blank"]
+     - .q_social_icon_holder.normal_social:nth-child(6) > a[itemprop="url"][target="_blank"]
+     - .q_social_icon_holder.normal_social:nth-child(7) > a[itemprop="url"][target="_blank"]
+     - .q_social_icon_holder.normal_social:nth-child(8) > a[itemprop="url"][target="_blank"]
+     - .q_social_icon_holder.normal_social:nth-child(9) > a[itemprop="url"][target="_blank"]
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/link-name[39m[24m
+
+[31m[1m  Violation of "meta-viewport" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure <meta name="viewport"> does not disable text scaling and zooming. Correct invalid elements at:
+     - meta[name="viewport"]
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/meta-viewport[39m[24m
+
+[31m[1m  Violation of "page-has-heading-one" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure that the page, or at least one of its frames contains a level-one heading. Correct invalid elements at:
+     - html
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/page-has-heading-one[39m[24m
+
+[31m[1m  Violation of "region" with 4 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure all page content is contained by landmarks. Correct invalid elements at:
+     - rs-slide[data-originalindex="1"] > rs-sbg-px
+     - rs-slide[data-originalindex="1"] > rs-layer-wrap
+     - .elementor-element-5bdb15ad
+     - #glt-translate-trigger
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/region[39m[24m
+[31m[1m[22m[39m
+[31m[1m15 Accessibility issues detected.[22m[39m
+[1mTesting complete of 1 pages[22m
+[1m[22m
+[3mPlease note that only 20% to 50% of all accessibility issues can automatically be detected. [23m
+[3mManual testing is always required. For more information see:[23m
+[3m[4m[34mhttps://dequeuniversity.com/class/testing[39m[24m[23m
+[3m[23m
+
+
+==================================================
+Website: https://askim.co.in
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://askim.co.in[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://fourdimensions.in
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://fourdimensions.in[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://fortunaam.in
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://fortunaam.in[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://thinqwise.com
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://thinqwise.com[39m[24m[22m ... please wait, this may take a minute.
+
+[31m[1m  Violation of "landmark-unique" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure landmarks are unique. Correct invalid elements at:
+     - #comp-ilgd5e7unavContainer
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/landmark-unique[39m[24m
+
+[31m[1m  Violation of "nested-interactive" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies. Correct invalid elements at:
+     - #dark-btn
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/nested-interactive[39m[24m
+
+[31m[1m  Violation of "tabindex" with 17 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure tabindex attribute values are not greater than 0. Correct invalid elements at:
+     - .uwaw-close
+     - #btn-s9
+     - #btn-s17
+     - #btn-s13
+     - #btn-s12
+     - #btn-df
+     - #btn-adhd
+     - #btn-saturate
+     - #dark-btn
+     - #btn-invert
+     - #btn-s10
+     - #speak
+     - #btn-cursor
+     - #btn-animation
+     - #btn-s11
+     - #reset-all
+     - #uw-widget-custom-trigger
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/tabindex[39m[24m
+[31m[1m[22m[39m
+[31m[1m19 Accessibility issues detected.[22m[39m
+[1mTesting complete of 1 pages[22m
+[1m[22m
+[3mPlease note that only 20% to 50% of all accessibility issues can automatically be detected. [23m
+[3mManual testing is always required. For more information see:[23m
+[3m[4m[34mhttps://dequeuniversity.com/class/testing[39m[24m[23m
+[3m[23m
+
+
+==================================================
+Website: https://sowiloim.com
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://sowiloim.com[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://sohumam.com
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://sohumam.com[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://gaja.capital
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://gaja.capital[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://lccapital.in
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://lccapital.in[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://cbadvisor.in
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://cbadvisor.in[39m[24m[22m ... please wait, this may take a minute.
+[31m[1mError: WebDriverError: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=150.0.7871.24)
+    at Object.throwDecodedError (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:526:13)
+    at Executor.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\http.js:458:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Driver.execute (C:\Users\pragati_c19\AppData\Local\npm-cache\_npx\e003b6b07d062486\node_modules\selenium-webdriver\lib\webdriver.js:745:17) {
+  remoteStacktrace: '\tchromedriver!GetHandleVerifier [0x7ff7e17097b5+15b85]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1709810+15be0]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1225c6d]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1222a43]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212dc1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1214c3f]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1213368]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1212b2b]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12127e1]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12104cb]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1210c12]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1229f16]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12cf384]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12a949a]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12ce5c5]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e12730a8]\n' +
+    '\tchromedriver!(No symbol) [0x7ff7e1273fa3]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cbfdf1+5cc1c1]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cba3aa+5c677a]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1cdd205+5e95d5]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1727dae+3417e]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1730acc+3ce9c]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713884+1fc54]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e1713a14+1fde4]\n' +
+    '\tchromedriver!GetHandleVerifier [0x7ff7e16f5ce7+20b7]\n' +
+    '\tKERNEL32!BaseThreadInitThunk [0x7ffe9984e957+17]\n' +
+    '\tntdll!RtlUserThreadStart [0x7ffe9b4cad6c+2c]\n'
+}[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
+
+
+==================================================
+Website: https://lighthouseamc.com
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://lighthouseamc.com[39m[24m[22m ... please wait, this may take a minute.
+
+[31m[1m  Violation of "color-contrast" with 13 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds. Correct invalid elements at:
+     - .simple-video-text > a
+     - .services-row.row[data-equalizer=""]:nth-child(2) > .medium-3.end.small-12:nth-child(1) > div[data-equalizer=""][data-equalizer-watch=""] > .pricing-table > .description > p
+     - .services-row.row[data-equalizer=""]:nth-child(2) > .medium-3.end.small-12:nth-child(2) > div[data-equalizer=""][data-equalizer-watch=""] > .pricing-table > .description > p
+     - .services-row.row[data-equalizer=""]:nth-child(2) > .medium-3.end.small-12:nth-child(3) > div[data-equalizer=""][data-equalizer-watch=""] > .pricing-table > .description > p
+     - .services-row.row[data-equalizer=""]:nth-child(2) > .medium-3.end.small-12:nth-child(4) > div[data-equalizer=""][data-equalizer-watch=""] > .pricing-table > .description > p
+     - .services-row.row[data-equalizer=""]:nth-child(3) > .medium-3.end.small-12:nth-child(1) > div[data-equalizer=""][data-equalizer-watch=""] > .pricing-table > .description > p
+     - .services-row.row[data-equalizer=""]:nth-child(3) > .medium-3.end.small-12:nth-child(2) > div[data-equalizer=""][data-equalizer-watch=""] > .pricing-table > .description > p
+     - .services-row.row[data-equalizer=""]:nth-child(3) > .medium-3.end.small-12:nth-child(3) > div[data-equalizer=""][data-equalizer-watch=""] > .pricing-table > .description > p
+     - .services-row.row[data-equalizer=""]:nth-child(3) > .medium-3.end.small-12:nth-child(4) > div[data-equalizer=""][data-equalizer-watch=""] > .pricing-table > .description > p
+     - .small-6.columns:nth-child(1) > p:nth-child(1)
+     - p:nth-child(1) > a[href$="lighthouseamc.com"]
+     - a[rel="nofollow"]
+     - .right
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/color-contrast[39m[24m
+
+[31m[1m  Violation of "frame-title" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure <iframe> and <frame> elements have an accessible name. Correct invalid elements at:
+     - iframe
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/frame-title[39m[24m
+
+[31m[1m  Violation of "link-name" with 5 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure links have discernible text. Correct invalid elements at:
+     - .toggler
+     - div[index="4"] > a[title=""][href$="lighthouseamc.com/"]
+     - div[index="7"] > a[title=""][href$="lighthouseamc.com/"]
+     - a[href$="asaecenter.org/"]
+     - #media_image-4 > a
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/link-name[39m[24m
+
+[31m[1m  Violation of "region" with 5 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure all page content is contained by landmarks. Correct invalid elements at:
+     - .slick-slider
+     - .medium-7
+     - iframe #player
+     - .simple-video-text
+     - #main-content > .row:nth-child(2)
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/region[39m[24m
+[31m[1m[22m[39m
+[31m[1m24 Accessibility issues detected.[22m[39m
+[1mTesting complete of 1 pages[22m
+[1m[22m
+[3mPlease note that only 20% to 50% of all accessibility issues can automatically be detected. [23m
+[3mManual testing is always required. For more information see:[23m
+[3m[4m[34mhttps://dequeuniversity.com/class/testing[39m[24m[23m
+[3m[23m
+
+
+==================================================
+Website: https://cosmea.in
+==================================================
+[1mRunning axe-core 4.12.1 in chrome-headless[22m
+[1m[22m
+[1mTesting [4m[34mhttps://cosmea.in[39m[24m[22m ... please wait, this may take a minute.
+
+[31m[1m  Violation of "region" with 1 occurrences![22m[39m
+[31m[1m[22m[39m    Ensure all page content is contained by landmarks. Correct invalid elements at:
+     - #shopify-section-sections--20113703960618__cosmea_footer
+    For details, see: [4m[34mhttps://dequeuniversity.com/rules/axe/4.12/region[39m[24m
+[31m[1m[22m[39m
+[31m[1m1 Accessibility issues detected.[22m[39m
+[1mTesting complete of 1 pages[22m
+[1m[22m
+[3mPlease note that only 20% to 50% of all accessibility issues can automatically be detected. [23m
+[3mManual testing is always required. For more information see:[23m
+[3m[4m[34mhttps://dequeuniversity.com/class/testing[39m[24m[23m
+[3m[23m
+
+

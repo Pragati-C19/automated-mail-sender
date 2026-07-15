@@ -29,14 +29,14 @@ from parse_report import parse_report
 # ══════════════════════════════════════════════════════════════════════════════
 # CONFIG — update these when switching from dummy → real data
 # ══════════════════════════════════════════════════════════════════════════════
-CSV_PATH    = os.path.join(BASE_DIR, "data", "dummy_leads.csv")       # ← change to leads.csv
-REPORT_PATH = os.path.join(BASE_DIR, "data", "dummy_accessibility_report.txt")
-BATCH_SIZE  = 3    # ← change to 30 for real data (30 per account = 60 total)
+CSV_PATH    = os.path.join(BASE_DIR, "data", "company_leads_details.csv")
+REPORT_PATH = os.path.join(BASE_DIR, "data", "accessibility-report.txt")
+BATCH_SIZE  = 30   # 30 per account = 60 total
 
 # AWS config
 AWS_REGION      = "ap-south-1"
-SQS_QUEUE_ACC1  = "sebi-mailer-acc1"   # SQS queue name for account 1
-SQS_QUEUE_ACC2  = "sebi-mailer-acc2"   # SQS queue name for account 2
+SQS_QUEUE_ACC1  = "automated_mail_sender_acc1"   # SQS queue name for account 1
+SQS_QUEUE_ACC2  = "automated_mail_sender_acc2"   # SQS queue name for account 2
 # ══════════════════════════════════════════════════════════════════════════════
 
 EMAIL_TEMPLATE = """\
@@ -53,11 +53,11 @@ for final compliance submission.
 We help SEBI-regulated IA / RA / PMS firms with the developer-side \
 remediation work, including:
 
-* Fixing WCAG 2.1 AA issues found in the initial accessibility audit
-* Resolving common issues such as missing alt text, low contrast, form label \
-issues, keyboard-accessibility issues, and inaccessible links/buttons
-* Preparing before/after evidence for auditor re-validation
-* Creating a remediation summary that can support the final compliance submission
+    - Fixing WCAG 2.1 AA issues found in the initial accessibility audit
+    - Resolving common issues such as missing alt text, low contrast, form label \
+      issues, keyboard-accessibility issues, and inaccessible links/buttons
+    - Preparing before/after evidence for auditor re-validation
+    - Creating a remediation summary that can support the final compliance submission
 
 While doing a quick preliminary check of {website_url}, we noticed potential \
 accessibility issues such as {observed_issues}. This is not a formal audit, \
@@ -119,21 +119,21 @@ def load_pending_companies(csv_path: str, batch_size: int) -> tuple:
 def build_email(row: dict, issues_raw: list, account_id: int) -> dict:
     """Fills the email template for one company."""
     website  = (row.get("website_url") or "").strip()
-    contact  = (row.get("Contact Person") or "Team").split()[0]
-    category = row.get("source_category") or row.get("entity_type") or "Portfolio Manager"
+    contact  = (row.get("recipient_name") or "Team").split()[0]
+    category = row.get("source_category") or "Portfolio Manager"
 
     return {
         "account_id": account_id,
-        "to":         row.get("Registered Office Email-Id", "").strip(),
-        "subject":    f"Accessibility Remediation Support for {row['Name']}",
+        "to":         row.get("recipient_email", "").strip(),
+        "subject":    f"Accessibility Remediation Support for {row['company_name']}",
         "body":       EMAIL_TEMPLATE.format(
                           contact_name=contact,
-                          firm_name=row["Name"],
+                          firm_name=row["company_name"],
                           category=category,
                           website_url=website,
                           observed_issues=format_issues(issues_raw),
                       ),
-        "company":    row["Name"],
+        "company":    row["company_name"],
         "website":    website,
     }
 
