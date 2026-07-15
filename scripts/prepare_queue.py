@@ -39,37 +39,47 @@ SQS_QUEUE_ACC1  = "automated_mail_sender_acc1"   # SQS queue name for account 1
 SQS_QUEUE_ACC2  = "automated_mail_sender_acc2"   # SQS queue name for account 2
 # ══════════════════════════════════════════════════════════════════════════════
 
+SIGNATURE = """\
+<br><br>
+--<br>
+<b>Best Regards,</b><br>
+<b>Pragati Chothe</b><br>
+Freelancer | Full Stack Developer<br>
+Specializing in Web Accessibility<br>
+Email: <a href="mailto:pragatichothe@gmail.com">pragatichothe@gmail.com</a> | Phone: +91 9021927662<br>
+<a href="https://pragatichothe.in/">Portfolio</a> | <a href="https://github.com/Pragati-C19">GitHub</a> | <a href="https://linkedin.com/in/pragati-c19">LinkedIn</a>"""
+
 EMAIL_TEMPLATE = """\
-Hi {contact_name},
+<p>Hi {contact_name},</p>
 
-I came across {firm_name} while reviewing SEBI-registered {category} entities \
-and noticed your digital platform here: {website_url}.
+<p>I came across <b>{firm_name}</b> while reviewing SEBI-registered <b>{category}</b> entities \
+and noticed your digital platform here: <a href="{website_url}">{website_url}</a>.</p>
 
-As you may already be aware, SEBI's digital accessibility compliance workflow \
+<p>As you may already be aware, SEBI's digital accessibility compliance workflow \
 (Circular No. SEBI/HO/ITD-1/ITD_VIAP/P/CIR/2025/111) requires regulated \
 entities to complete the accessibility audit process and remediate findings \
-for final compliance submission.
+for final compliance submission.</p>
 
-We help SEBI-regulated IA / RA / PMS firms with the developer-side \
-remediation work, including:
+<p>We help SEBI-regulated IA / RA / PMS firms with the developer-side \
+remediation work, including:</p>
 
-    - Fixing WCAG 2.1 AA issues found in the initial accessibility audit
-    - Resolving common issues such as missing alt text, low contrast, form label \
-      issues, keyboard-accessibility issues, and inaccessible links/buttons
-    - Preparing before/after evidence for auditor re-validation
-    - Creating a remediation summary that can support the final compliance submission
+<ul>
+<li>Fixing WCAG 2.1 AA issues found in the initial accessibility audit</li>
+<li>Resolving common issues such as missing alt text, low contrast, form label issues, keyboard-accessibility issues, and inaccessible links/buttons</li>
+<li>Preparing before/after evidence for auditor re-validation</li>
+<li>Creating a remediation summary that can support the final compliance submission</li>
+</ul>
 
-While doing a quick preliminary check of {website_url}, we noticed potential \
-accessibility issues such as low color contrast, missing image alternative \
-text, links without discernible text, buttons without accessible names, and \
-missing form labels. This is not a formal audit, but it may be worth \
-reviewing if your final accessibility compliance work is still in progress.
+<p>While doing a quick preliminary check of <a href="{website_url}">{website_url}</a>, we noticed potential \
+accessibility issues such as <b>low color contrast, missing image alternative text, links without \
+discernible text, buttons without accessible names, and missing form labels</b>. This is not a formal audit, \
+but it may be worth reviewing if your final accessibility compliance work is still in progress.</p>
 
-Have you already completed your initial IAAP accessibility audit / Table C3 \
+<p>Have you already completed your initial IAAP accessibility audit / Table C3 \
 report? If yes, we can help remediate the open findings and prepare the \
-evidence pack for the final submission.
+evidence pack for the final submission.</p>
 
-Would you be open to a short 15-minute call this week?"""
+<p>Would you be open to a short 15-minute call this week?</p>{signature}"""
 
 
 def log(msg):
@@ -132,6 +142,7 @@ def build_email(row: dict, account_id: int) -> dict:
                           firm_name=row["company_name"],
                           category=category,
                           website_url=website,
+                          signature=SIGNATURE,
                       ),
         "company":    row["company_name"],
         "website":    website,

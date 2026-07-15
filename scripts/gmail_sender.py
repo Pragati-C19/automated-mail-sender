@@ -81,7 +81,7 @@ def get_credentials(account_id: int) -> Credentials:
 
 def build_message(to: str, subject: str, body: str) -> dict:
     """Creates a base64-encoded email message."""
-    message = MIMEText(body, "plain")
+    message = MIMEText(body, "html")
     message["to"] = to
     message["subject"] = subject
     raw = base64.urlsafe_b64encode(message.as_bytes()).decode()
