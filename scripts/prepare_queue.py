@@ -20,17 +20,17 @@ Run:
 import os, sys, csv, json, random, argparse, boto3
 from datetime import datetime, timedelta, date
 
-# ── Add scripts dir to path so we can import parse_report ────────────────────
+# ── Add scripts dir to path (kept for compatibility) ──────────────────────────
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR   = os.path.dirname(SCRIPT_DIR)
 sys.path.insert(0, SCRIPT_DIR)
-from parse_report import parse_report
+# from parse_report import parse_report   # disabled — observed_issues is now a fixed default list
 
 # ══════════════════════════════════════════════════════════════════════════════
 # CONFIG — update these when switching from dummy → real data
 # ══════════════════════════════════════════════════════════════════════════════
 CSV_PATH    = os.path.join(BASE_DIR, "data", "company_leads_details.csv")
-REPORT_PATH = os.path.join(BASE_DIR, "data", "accessibility-report.txt")
+# REPORT_PATH = os.path.join(BASE_DIR, "data", "accessibility-report.txt")   # disabled — no longer parsed
 BATCH_SIZE  = 30   # 30 per account = 60 total
 
 # AWS config
@@ -60,9 +60,10 @@ remediation work, including:
     - Creating a remediation summary that can support the final compliance submission
 
 While doing a quick preliminary check of {website_url}, we noticed potential \
-accessibility issues such as {observed_issues}. This is not a formal audit, \
-but it may be worth reviewing if your final accessibility compliance work is \
-still in progress.
+accessibility issues such as low color contrast, missing image alternative \
+text, links without discernible text, buttons without accessible names, and \
+missing form labels. This is not a formal audit, but it may be worth \
+reviewing if your final accessibility compliance work is still in progress.
 
 Have you already completed your initial IAAP accessibility audit / Table C3 \
 report? If yes, we can help remediate the open findings and prepare the \
@@ -75,17 +76,17 @@ def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}")
 
 
-def format_issues(issues: list) -> str:
-    """Converts list of issue strings into a readable sentence."""
-    if not issues:
-        return "potential WCAG 2.1 AA accessibility issues"
-    main    = [i for i in issues if i != "among other issues"]
-    has_etc = "among other issues" in issues
-    if   len(main) == 1: text = main[0]
-    elif len(main) == 2: text = f"{main[0]} and {main[1]}"
-    else:                text = ", ".join(main[:-1]) + f", and {main[-1]}"
-    if has_etc: text += ", among other issues"
-    return text
+# def format_issues(issues: list) -> str:
+#     """Converts list of issue strings into a readable sentence. (disabled — replaced by DEFAULT_OBSERVED_ISSUES)"""
+#     if not issues:
+#         return "potential WCAG 2.1 AA accessibility issues"
+#     main    = [i for i in issues if i != "among other issues"]
+#     has_etc = "among other issues" in issues
+#     if   len(main) == 1: text = main[0]
+#     elif len(main) == 2: text = f"{main[0]} and {main[1]}"
+#     else:                text = ", ".join(main[:-1]) + f", and {main[-1]}"
+#     if has_etc: text += ", among other issues"
+#     return text
 
 
 def load_pending_companies(csv_path: str, batch_size: int) -> tuple:
@@ -116,7 +117,7 @@ def load_pending_companies(csv_path: str, batch_size: int) -> tuple:
     return acc1, acc2, all_rows, fieldnames
 
 
-def build_email(row: dict, issues_raw: list, account_id: int) -> dict:
+def build_email(row: dict, account_id: int) -> dict:
     """Fills the email template for one company."""
     website  = (row.get("website_url") or "").strip()
     contact  = (row.get("recipient_name") or "Team").split()[0]
@@ -131,7 +132,6 @@ def build_email(row: dict, issues_raw: list, account_id: int) -> dict:
                           firm_name=row["company_name"],
                           category=category,
                           website_url=website,
-                          observed_issues=format_issues(issues_raw),
                       ),
         "company":    row["company_name"],
         "website":    website,
@@ -220,30 +220,26 @@ def main():
     log(f"Account 1: {len(acc1_rows)} companies")
     log(f"Account 2: {len(acc2_rows)} companies")
 
-    # ── Step 2: Parse accessibility report ───────────────────────────────────
-    log(f"Parsing report: {REPORT_PATH}")
-    if not os.path.exists(REPORT_PATH):
-        log(f"ERROR: Report not found at {REPORT_PATH}")
-        log("Run scan.sh first to generate the accessibility report.")
-        sys.exit(1)
-
-    report = parse_report(REPORT_PATH)
-    log(f"Found accessibility data for {len(report)} websites")
+    # ── Step 2: Parse accessibility report (disabled — using fixed issue list) ─
+    # log(f"Parsing report: {REPORT_PATH}")
+    # if not os.path.exists(REPORT_PATH):
+    #     log(f"ERROR: Report not found at {REPORT_PATH}")
+    #     log("Run scan.sh first to generate the accessibility report.")
+    #     sys.exit(1)
+    #
+    # report = parse_report(REPORT_PATH)
+    # log(f"Found accessibility data for {len(report)} websites")
 
     # ── Step 3: Generate emails ───────────────────────────────────────────────
     log("Generating emails...")
 
     acc1_emails = []
     for _, row in acc1_rows:
-        website    = (row.get("website_url") or "").strip()
-        issues_raw = report.get(website, [])
-        acc1_emails.append(build_email(row, issues_raw, account_id=1))
+        acc1_emails.append(build_email(row, account_id=1))
 
     acc2_emails = []
     for _, row in acc2_rows:
-        website    = (row.get("website_url") or "").strip()
-        issues_raw = report.get(website, [])
-        acc2_emails.append(build_email(row, issues_raw, account_id=2))
+        acc2_emails.append(build_email(row, account_id=2))
 
     log(f"Generated {len(acc1_emails) + len(acc2_emails)} emails total")
 
