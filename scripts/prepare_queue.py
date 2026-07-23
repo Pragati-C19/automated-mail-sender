@@ -42,11 +42,11 @@ SQS_QUEUE_ACC2  = "automated_mail_sender_acc2"   # SQS queue name for account 2
 SIGNATURE = """\
 <br><br>
 --<br>
-<b>Best Regards,</b><br>
+Best Regards,<br>
 <b>Pragati Chothe</b><br>
 Freelancer | Full Stack Developer<br>
 Specializing in Web Accessibility<br>
-Email: <a href="mailto:pragatichothe@gmail.com">pragatichothe@gmail.com</a> | Phone: +91 9021927662<br>
+<b>Email:</b> <a href="mailto:pragatichothe@gmail.com">pragatichothe@gmail.com</a> | <b>Phone:</b> +91 9021927662<br>
 <a href="https://pragatichothe.in/">Portfolio</a> | <a href="https://github.com/Pragati-C19">GitHub</a> | <a href="https://linkedin.com/in/pragati-c19">LinkedIn</a>"""
 
 EMAIL_TEMPLATE = """\
@@ -130,7 +130,7 @@ def load_pending_companies(csv_path: str, batch_size: int) -> tuple:
 def build_email(row: dict, account_id: int) -> dict:
     """Fills the email template for one company."""
     website  = (row.get("website_url") or "").strip()
-    contact  = (row.get("recipient_name") or "Team").split()[0]
+    contact  = row.get("recipient_name") or "Team"
     category = row.get("source_category") or "Portfolio Manager"
 
     return {
